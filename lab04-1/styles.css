@@ -1,0 +1,56 @@
+/*
+filename: TrongNhanVoLab04
+author: Trong Nhan Vo
+date modified : 28/08/2023
+*/
+h1{color:purple}
+div {
+    color:#2F4F4F;
+}
+h2{
+    color: rgb(0,128,128);
+    font-size: 150%;
+}
+aside,footer{
+    font-style: italic;
+}
+h1,h2,h3{
+    font-family: arial;
+}
+table,th,td{
+    border: 1px solid black;
+}
+#images{
+    text-align: center;
+}
+#headings{
+    color: red;
+}
+.special{
+    color: darkorange; font-weight: bold;
+}
+.month{
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    padding: 0.2 em 0.6 em;
+    border: 4px solid #ccc;
+}
+ol{
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-type: square;
+}
+#ulist{
+    list-style-type: square;
+}
+aside:hover{
+    display: none;
+}
+#nestedlist {list-style-type: square;}
+nav a:hover{
+    background-color: lightblue;
+    border-color: darkblue;
+}

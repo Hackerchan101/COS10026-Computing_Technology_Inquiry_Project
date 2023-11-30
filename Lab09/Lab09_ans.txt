@@ -1,0 +1,9 @@
+Now write SQL for the following and the test the queries:
+5. The make and model of the cars which cost below $15,000.00.
+SELECT make, model FROM cars WHERE price < 15000
+
+6. Average price of FORD cars.
+SELECT AVG(price) FROM cars WHERE make = 'FORD';
+
+7. Cars manufactured in 2010 or later and costing $15,000 or more.
+SELECT * FROM cars WHERE year >= 2010 AND price >= 15000
